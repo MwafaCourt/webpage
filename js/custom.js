@@ -13,11 +13,11 @@ function openNav() {
 }
 
 setTimeout(function() {
-    $('.alert').fadeOut()
+    $('.alert').toggleClass('hidden')
 }, 10000)
 $('.box').on('click', () => {
     $('.alert').toggleClass('hidden')
     setTimeout( function() {
-        $('.alert').fadeOut()
+        $('.alert').toggleClass('hidden')
     }, 3000)
 })
