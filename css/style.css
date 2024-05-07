@@ -95,7 +95,10 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
-
+.alert {
+  position: fixed;
+  top: 5px;
+}
 .header_section .user_option a {
   display: -webkit-box;
   display: -ms-flexbox;
