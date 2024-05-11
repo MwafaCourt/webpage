@@ -21,3 +21,13 @@ $('.box').on('click', () => {
         $('.alert').toggleClass('hidden')
     }, 3000)
 })
+$(document).ready(
+    function() {
+       setTimeout(
+        function() {
+            $('.loader').addClass('hidden');
+            $('.content').removeClass('hidden');
+        }, 3000
+       )
+    }
+)
