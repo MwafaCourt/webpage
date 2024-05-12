@@ -27,7 +27,7 @@ $('img').ready(
         function() {
             $('.loader').addClass('hidden');
             $('.content').removeClass('hidden');
-        }, 3000
+        }, 8000
        )
     }
 )
