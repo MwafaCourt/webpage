@@ -21,7 +21,7 @@ $('.box').on('click', () => {
         $('.alert').toggleClass('hidden')
     }, 3000)
 })
-$(document).ready(
+$('img').ready(
     function() {
        setTimeout(
         function() {
