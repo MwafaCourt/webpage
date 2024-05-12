@@ -17,9 +17,7 @@ body {
   padding-top: 45px;
   padding-bottom: 45px;
 }
-.hidden {
-  display: none;
-}
+
 .layout_padding2-bottom {
   padding-bottom: 45px;
 }
@@ -73,7 +71,12 @@ li {
 .header_section {
   overflow-x: hidden;
 }
-
+.above {
+  z-index: 99;
+}
+.white-background {
+  background: #ffffff;
+}
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
@@ -209,6 +212,10 @@ a:focus {
   background-size: 50px;
   width: 30px;
   height: 30px;
+}
+
+.hidden {
+  display: none;
 }
 
 .lg_toggl-btn {
@@ -635,6 +642,10 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.alert {
+  z-index: 99;
 }
 
 .deal_section .detail-box p {
