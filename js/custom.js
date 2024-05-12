@@ -21,7 +21,7 @@ $('.box').on('click', () => {
         $('.alert').toggleClass('hidden')
     }, 3000)
 })
-$('img').ready(
+$('iframe').ready(
     function() {
        setTimeout(
         function() {
