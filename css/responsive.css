@@ -170,7 +170,12 @@
   }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
 
 @media (max-width: 420px) {
   .client_section .client_container div#carouselExampleControls::before {
