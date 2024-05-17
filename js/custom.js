@@ -15,7 +15,7 @@ function openNav() {
 setTimeout(function() {
     $('.alert').toggleClass('hidden')
 }, 10000)
-$('.box').on('click', () => {
+$('.unfeatured').on('click', () => {
     $('.alert').toggleClass('hidden')
     setTimeout( function() {
         $('.alert').toggleClass('hidden')
@@ -27,7 +27,7 @@ $('img').ready(
         function() {
             $('.loader').addClass('hidden');
             $('.content').removeClass('hidden');
-        }, 3000
+        }, 5000
        )
     }
 )

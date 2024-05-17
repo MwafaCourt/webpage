@@ -129,7 +129,9 @@
   .info_section .info_form .social_box {
     justify-content: center;
   }
-
+  .sale_section .btn-box {
+    height: 30%;
+  }
   .info_section .info_form .social_box a {
     margin: 0 15px;
   }
