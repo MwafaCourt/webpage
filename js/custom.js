@@ -1,3 +1,4 @@
+//Proverbs 15:1 A gentle word turns away wrath but a harsh word stirs up anger
 // to get current year
 function getYear() {
     var currentDate = new Date();
